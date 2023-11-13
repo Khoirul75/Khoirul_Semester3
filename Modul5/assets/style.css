@@ -1,0 +1,73 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.logo {
+   width: 150px;
+   height: 330px;
+   background-color :aliceblue;
+   margin-left: 16%;
+   margin-top: -19%;
+   border : 1px solid;
+
+   border-top-left-radius: 50px;
+}
+.plbg{
+    padding-left: 25px;
+}
+h4{
+    background-color: rgb(96, 117, 193);
+    color: aliceblue;
+}
+
+.header{
+    padding-top: 30px;
+    padding-left: 20px;
+    width:730px;
+    height:200px;
+    background-color:rgb(221, 172, 113);
+    color: aliceblue;
+    margin-left: 30%;
+    border-bottom-right-radius: 50px;
+
+}
+.nav {
+    color: aliceblue;
+    background-color:rgb(245, 137, 5);
+    text-decoration: none;
+    width: 750px;
+    height: 30px;
+    margin-top: -100px;
+    margin-left: 30%;
+}
+.nav ul{
+    list-style:none;
+    display: flex;  
+}
+.nav li{
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.content{
+    background-color:aliceblue;
+    width: 750px;
+    height: 400px;
+    margin-left: 30%;
+    border : 1px solid;
+}
+.content-profil{
+    margin: 0x;
+}
+.footer {
+    background-color: rgb(221, 172, 113);
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    width : 930px;
+    height : 100px;
+    margin-top: 20px;
+    margin-left: 15%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
