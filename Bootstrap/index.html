@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="text-center">
+    <h1>Belajar Bootstrap</h1>
+    <p>Bootstrap adalah sebuah framework yang paling populer digunakan untuk membuat sebuah website. Bootstrap membuat front-end developer dapat membuat website dengan cepat, fokus pada responsive mobile, dan membuat website menjadi lebih interaktif tanpa membuat banyak CSS dan JavaScript dari nol.</p>
+    </div>
+    <!-- Nav start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info ">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Galery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav end -->
+
+    <!-- card -->
+    <div class="container d-flex mt-3 justify-content-around">
+      <div class="card" style="width: 18rem;">
+        <img src="img/html.png" class="card-img-top" alt="..." height="270">
+        <div class="card-body">
+          <h5 class="card-title">HTML</h5>
+          <p class="card-text">HTML adalah bahasa markup yang membentuk struktur halaman website agar dapat diproses dan dikenali oleh web browser.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="img/css.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">CSS</h5>
+          <p class="card-text">Merupakan bahasa pemrograman yang digunakan untuk menentukan bagaimana dokumen dan website akan disajikan.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="img/jss.png" class="card-img-top" alt="..." height="280">
+        <div class="card-body">
+          <h5 class="card-title">JAVA SCRIPT</h5>
+          <p class="card-text">JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+   <!-- card end -->
+
+   <!-- pagination -->
+   <div class="container mt-3">
+      <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="#">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- pagination end -->
+
+    <!-- layout -->
+    <h2 class="text-center mt-5">About</h2>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col">
+          Bootstrap menggunakan Sass untuk arsitektur modular dan dapat disesuaikan. Impor hanya komponen yang Anda perlukan, aktifkan opsi global seperti gradien dan bayangan, dan tulis CSS Anda sendiri dengan variabel, peta, fungsi, dan mixin kami
+        </div>
+        <div class="col">
+          Bootstrap 5 berkembang di setiap rilis untuk memanfaatkan variabel CSS dengan lebih baik untuk gaya tema global, komponen individual, dan bahkan utilitas. Kami menyediakan lusinan variabel untuk warna, gaya font, dan lainnya pada tingkat :root untuk digunakan di mana saja. Pada komponen dan utilitas, variabel CSS dibatasi pada kelas yang relevan dan dapat dengan mudah dimodifikasi.
+        </div>
+      </div>
+    </div>
+
+    <!-- forms -->
+    <div class="container mt-5">
+      <h2 class="text-center">Contact Us</h2>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Massage</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center bg-info p-3" >
+    <p>Copyright &copy; 2023-Khoirulanam</p>
+    </div>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+  </body>
+</html>
